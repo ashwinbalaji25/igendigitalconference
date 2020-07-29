@@ -169,7 +169,7 @@ Primary use:
   position: relative;
   max-width: 100%;
   margin: 0;
-  margin-bottom: 140px;
+  margin-bottom: 290px;
 }
 
 .flip-clock-wrapper .flip {
@@ -304,6 +304,7 @@ Primary use:
   .flip-clock-wrapper {
     max-width: 240px;
     margin-right: 26px;
+    margin-bottom: 10px;
   }
 
   .flip-clock-divider.days {

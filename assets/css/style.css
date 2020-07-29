@@ -4109,14 +4109,20 @@ hero-btn {
   position: relative;
   right: -50px;
 }
-.support-company-area .center-caption {
+.support-company-area .left-caption {
   position: relative;
-  right: 250px;
+  right: 550px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
   .support-company-area .right-caption {
+    right: -25px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
+  .support-company-area .left-caption {
     right: -25px;
   }
 }
@@ -4129,6 +4135,14 @@ hero-btn {
     padding-top: 50px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
+  .support-company-area .left-caption {
+    right: 0px;
+    margin-bottom: 40px;
+    padding-top: 0px;
+  }
+}
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
@@ -4136,6 +4150,14 @@ hero-btn {
     right: 0px;
     margin-bottom: 40px;
     padding-top: 50px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
+  .support-company-area .left-caption {
+    right: 0px;
+    margin-bottom: 40px;
+    padding-top: 0px;
   }
 }
 
@@ -4147,6 +4169,14 @@ hero-btn {
     padding-top: 50px;
   }
 }
+@media (max-width: 575px) {
+  /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
+  .support-company-area .left-caption {
+    right: 0px;
+    margin-bottom: 40px;
+    padding-top: 0px;
+  }
+}
 
 /* line 31, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
 .support-company-area .right-caption .support-caption p.pera-top {
@@ -4155,9 +4185,19 @@ hero-btn {
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
+.support-company-area .left-caption .support-caption p.pera-top {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
 
 /* line 37, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
 .support-company-area .right-caption .support-caption p {
+  font-size: 15px;
+  color: #cecece;
+}
+.support-company-area .left-caption .support-caption p {
   font-size: 15px;
   color: #cecece;
 }

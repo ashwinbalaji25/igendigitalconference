@@ -3392,7 +3392,8 @@ hero-btn {
 
 /* line 104, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
 .main-header .main-menu ul li:last-child a {
-  padding-right: 0;
+  padding-right: 10px;
+  padding-top: 8px;
 }
 
 /* line 109, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */

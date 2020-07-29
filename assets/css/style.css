@@ -4109,6 +4109,10 @@ hero-btn {
   position: relative;
   right: -50px;
 }
+.support-company-area .center-caption {
+  position: relative;
+  right: 250px;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */

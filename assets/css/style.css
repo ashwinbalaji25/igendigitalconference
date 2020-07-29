@@ -3394,6 +3394,7 @@ hero-btn {
 .main-header .main-menu ul li:last-child a {
   padding-right: 10px;
   padding-top: 8px;
+  
 }
 
 /* line 109, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
@@ -3649,7 +3650,7 @@ hero-btn {
   color: #fff;
   display: inline-block;
   position: relative;
-  padding-left: 100px;
+  padding-left: 75px;
 }
 
 @media (max-width: 575px) {
@@ -3663,7 +3664,7 @@ hero-btn {
 .slider-area .hero__caption span::before {
   position: absolute;
   content: "";
-  width: 70px;
+  width: 55px;
   height: 2px;
   background: #fff;
   top: 0;

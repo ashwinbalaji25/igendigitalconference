@@ -3074,6 +3074,8 @@ hero-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   margin-bottom: 17px;
+  /* margin-left: 200px; */
+  /* text-align: center; */
   text-transform: uppercase;
   color: #28b485;
   display: inline-block;
@@ -4111,7 +4113,7 @@ hero-btn {
 }
 .support-company-area .left-caption {
   position: relative;
-  right: 550px;
+  right: 300px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

@@ -75,6 +75,20 @@ Primary use:
   animation: anim-shadow 0.5s ease-in-out forwards;
 }
 
+.counter-class{
+  position: relative;
+  left: 44vw;
+}
+
+.counter-wrapper{
+  background-color: black;
+}
+
+.counter-wrapper p{
+  color: white;
+  text-align: center;
+}
+
 @-webkit-keyframes anim-shadow {
   to {
     box-shadow: 0px 0px 80px 30px;

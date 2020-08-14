@@ -87,7 +87,7 @@ Primary use:
 .counter-wrapper p{
   color: white;
   text-align: center;
-  align-items: center;
+
 }
 
 @-webkit-keyframes anim-shadow {
